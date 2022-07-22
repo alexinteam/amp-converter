@@ -11,7 +11,7 @@ class Converter
 
     private $prohibited_tags = [
         'script',
-        'style',
+//        'style',
         'frame',
         'frameset',
         'form',
@@ -31,7 +31,7 @@ class Converter
 
     //style attribute, event attributes and attributes deprecated in HTML 5
     private $prohibited_attributes = [
-        'style' => '*',
+//        'style' => '*',
         'width' => 'hr|table|td|th|col|colgroup|pre',
         'height' => 'hr|table|td|th|col|colgroup|pre',
         'valign' => 'col|colgroup|tbody|td|tfoot|th|thead|tr',
