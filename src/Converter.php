@@ -10,7 +10,7 @@ class Converter
     private $doc;
 
     private $prohibited_tags = [
-        'script',
+//        'script',
 //        'style',
         'frame',
         'frameset',
